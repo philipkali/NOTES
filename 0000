@@ -1,3 +1,11 @@
 var fix = function (x) {
   console.log("vA");
  };
+
+function eGX(feed){
+  var i = 6;
+  var T = (function(y){
+    console.log('en' + y);
+    return i;
+    })(5);
+}
