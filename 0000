@@ -9,3 +9,10 @@ function eGX(feed){
     return i;
     })(5);
 }
+
+
+
+
+
+var re = /[0-5]/;
+console.log("mild tr3e!".exec(re));
