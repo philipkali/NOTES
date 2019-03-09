@@ -12,11 +12,17 @@ function eGX(feed){
 
 
 
-
-
 var re = /[0-5]/;
 console.log("mild tr3e!".exec(re));
 
 
 var sl = "a method on top";
 console.log(sl.split("");
+console.log(sl.split(" ");
+
+
+function treem(str){
+  re = /^\s+|\s+$/;
+  return(str.replace(re,"");
+}
+treem("  white space  ");
