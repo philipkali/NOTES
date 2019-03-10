@@ -26,3 +26,7 @@ function treem(str){
   return(str.replace(re,"");
 }
 treem("  white space  ");
+
+var ar1 = new Array(1,2,"three");
+var ar2 = Array("one", 2,3);
+var ar3 = [1,"two",3];
