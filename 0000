@@ -31,6 +31,16 @@ var ar1 = new Array(1,2,"three");
 var ar2 = Array("one", 2,3);
 var ar3 = [1,"two",3];
 
+//------------
+var str1="two";
+function sr(str1){
+  for(i=0;i<ar3.length;i++){
+    if(str1 === ar3[i]{
+      return(console. log("index; " + i) ) 
+    } 
+  }
+}
+
 
 
 
