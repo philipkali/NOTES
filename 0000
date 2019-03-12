@@ -31,6 +31,13 @@ var ar1 = new Array(1,2,"three");
 var ar2 = Array("one", 2,3);
 var ar3 = [1,"two",3];
 
+ar2.push("Zero");
+ar2.forEach(function(it2){
+  console.log(it2);
+}
+console.log(ar2.concat(ar1));
+  
+
 //------------
 var str1="two";
 function sr(str1){
