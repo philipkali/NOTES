@@ -49,7 +49,14 @@ function sr(str1){
 }
 
 
+//-------------------
 
+var ob1 = {
+  ob:"val1", 
+  je: function () {console. log("val2");}, 
+  ct: 25
+} 
+ob1.je();
 
 
 
