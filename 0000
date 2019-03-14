@@ -58,7 +58,8 @@ var ob1 = {
 } 
 ob1.je();
 
-
+//
+console.log(ob1.getPrototypeOf());
 
 
 
