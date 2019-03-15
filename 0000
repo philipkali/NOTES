@@ -61,7 +61,11 @@ ob1.je();
 //
 console.log(ob1.getPrototypeOf());
 
-
+//
+var button = document.getElementById('#water');
+button.addEventListener('click',function(){
+  alert("Clicked!");
+});
 
 
 
