@@ -66,7 +66,10 @@ var button = document.getElementById('#water');
 button.addEventListener('click',function(){
   alert("Clicked!");
 });
-
+//--------------------
+//<p id="rt">...
+var five = 1 + 3 + 1;
+document.getElementById('rt').innerHTML("it's " + five);
 
 
 
