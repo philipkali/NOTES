@@ -57,10 +57,18 @@ var ob1 = {
   ct: 25
 } 
 ob1.je();
-
-//
 console.log(ob1.getPrototypeOf());
+//
 
+obj2 = {
+    one: function(){
+             return this;
+         },
+    this.two: "here"
+}
+obj2.prototype.fire = "burning!";
+console.log(obj2.one());
+console.log(obj2.fire);
 //
 var button = document.getElementById('#water');
 button.addEventListener('click',function(){
