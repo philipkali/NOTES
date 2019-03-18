@@ -79,8 +79,17 @@ button.addEventListener('click',function(){
 var five = 1 + 3 + 1;
 document.getElementById('rt').innerHTML("it's " + five);
 
-
-
+//-----------------
+var ctrl =0;
+var swpa = 25;
+var swpb = 183;
+var swpc = 1;
+console.log(swpa," ", swpb, " ", swpc, " a to b to c to a"); 
+ctrl = swpa;
+swpa = swpb;
+swpb = swpc;
+swpc = ctrl;
+console.log(swpa," ", swpb, " ", swpc);
 
 
 
