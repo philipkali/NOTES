@@ -92,5 +92,31 @@ swpc = ctrl;
 console.log(swpa," ", swpb, " ", swpc);
 
 
+// DB ACID Accr; Atomicity, Consistency, Isolation, Durability.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
