@@ -95,7 +95,14 @@ console.log(swpa," ", swpb, " ", swpc);
 // DB ACID Accr; Atomicity, Consistency, Isolation, Durability.
 
 
+---------------
 
+var con = new XMLHTTPRequest();
+con.open("GET","file.php?id=101&name=good", true); //false is synchronous
+con.send();
+------
+con.open("POST", "file.php", true);
+con.send("id=100&name=good");
 
 
 
