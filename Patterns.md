@@ -1,4 +1,4 @@
 
-Creational
-Structural
-Behavioral
+Creational  
+Structural  
+Behavioral  
