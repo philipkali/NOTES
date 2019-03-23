@@ -1,1 +1,4 @@
 
+Creational
+Structural
+Behavioral
