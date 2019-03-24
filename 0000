@@ -105,7 +105,11 @@ con.open("POST", "file.php", true);
 con.send("id=100&name=good");
 
 
-
+--------------------
+Check if a number is whole number. 
+function wholeInt(x) {
+    return Number(x) && x%1 === 0;
+} 
 
 
 
