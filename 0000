@@ -108,7 +108,7 @@ con.send("id=100&name=good");
 --------------------
 Check if a number is whole number. 
 function wholeInt(x) {
-    return Number(x) && x%1 === 0;
+    return Number(x) === x && x%1 === 0;
 } 
 
 
