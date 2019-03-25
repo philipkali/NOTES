@@ -112,8 +112,20 @@ function wholeInt(x) {
 } 
 
 
-
-
+----------------------
+flexbox
+.container {
+    display:flex;
+    justify-content:flex-start|flex-end|center|baseline;(main axis)
+    flex-flow: row[|row-reverse|column|column-reverse] wrap[|no-wrap|wrap-reverse]
+    align-items: stretch|flex-start/end|center|baseline;(cross axis)
+    align-content: space-between|space-around|stretch|flex-start/end|
+}
+.flex-item {
+    flex: 0 1 auto; (flex-grow flex-shrink flex-basis)
+    align-self:stretch|center|...;
+    }
+    
 
 
 
