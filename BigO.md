@@ -11,9 +11,8 @@ void foo(int[]array){
 	}  
 	System.out.println(sum + ", " + product);  
 }  
-~~~~
 
-~~~~
+
 ---------
 
 void reverse(int[] array){
@@ -28,3 +27,18 @@ void reverse(int[] array){
 
 
 ~~~~
+~~~~
+O(n^2)
+
+
+void printPairs(int[] array){
+	for (int i = 0; i < array.length; i++){
+		for (int j = 0; j < array.length; j++){
+			System.out.println(array[i] + ", " + array[j]);
+		}
+	}
+}
+
+
+~~~~
+
