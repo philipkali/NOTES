@@ -69,6 +69,7 @@ obj2 = {
 obj2.prototype.fire = "burning!";
 console.log(obj2.one());
 console.log(obj2.fire);
+// this takes precedence over prototype. 
 //
 var button = document.getElementById('#water');
 button.addEventListener('click',function(){
