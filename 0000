@@ -127,15 +127,6 @@ flexbox
     align-self:stretch|center|...;
     }
     
--------------------------------------------
-trees, tres, graphs
-
-
-
-
-
-
-
 
 --------------------------------------------
 	var example_emitter = new (require('events').EventEmitter);
