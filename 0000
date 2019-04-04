@@ -142,6 +142,9 @@ flexbox
 	example_emitter.emit("unhandeled");
 
 
+---------------------------
+
+tic tAc toe works well with minimax algorithm. 
 
 
 
